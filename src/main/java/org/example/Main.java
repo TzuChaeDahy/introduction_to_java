@@ -4,6 +4,7 @@ import main.java.org.example.exercises.First;
 import main.java.org.example.exercises.Second;
 import main.java.org.example.exercises.Third;
 import main.java.org.example.exercises.banking.Banking;
+import main.java.org.example.exercises.negative.Negative;
 
 public class Main {
     public static void main(String[] args) {
@@ -11,5 +12,6 @@ public class Main {
         Second.run();
         Third.run();
         Banking.run();
+        Negative.run();
     }
 }
