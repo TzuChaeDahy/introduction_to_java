@@ -8,6 +8,7 @@ import main.java.org.example.exercises.entities.OrderOperation;
 import main.java.org.example.exercises.height.Height;
 import main.java.org.example.exercises.negative.Negative;
 import main.java.org.example.oop.one.entities.EmployeeOperation;
+import main.java.org.example.oop.two.PersonOperation;
 
 public class Main {
     public static void main(String[] args) {
@@ -19,5 +20,6 @@ public class Main {
         Height.run();
         OrderOperation.run();
         EmployeeOperation.run();
+        PersonOperation.run();
     }
 }
