@@ -7,21 +7,27 @@ import main.java.org.example.exercises.banking.Banking;
 import main.java.org.example.exercises.entities.OrderOperation;
 import main.java.org.example.exercises.height.Height;
 import main.java.org.example.exercises.negative.Negative;
+import main.java.org.example.generics.map.MapOperation;
+import main.java.org.example.generics.par.ParOperation;
+import main.java.org.example.generics.set.SetOperation;
 import main.java.org.example.oop.one.entities.EmployeeOperation;
 import main.java.org.example.oop.three.AccountOperation;
 import main.java.org.example.oop.two.PersonOperation;
 
 public class Main {
     public static void main(String[] args) {
-        First.run();
-        Second.run();
-        Third.run();
-        Banking.run();
-        Negative.run();
-        Height.run();
-        OrderOperation.run();
-        EmployeeOperation.run();
-        PersonOperation.run();
-        AccountOperation.run();
+//        First.run();
+//        Second.run();
+//        Third.run();
+//        Banking.run();
+//        Negative.run();
+//        Height.run();
+//        OrderOperation.run();
+//        EmployeeOperation.run();
+//        PersonOperation.run();
+//        AccountOperation.run();
+//        ParOperation.run();
+        SetOperation.run();
+//        MapOperation.run();
     }
 }
